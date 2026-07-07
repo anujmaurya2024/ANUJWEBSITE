@@ -118,10 +118,10 @@ const Experience = () => {
         <div className="flex flex-col gap-8 md:gap-12 items-center md:block relative z-10 w-full pt-4 md:pt-0 pb-12 md:pb-0">
 
           <ExpCard
-            period="Jul 2026 – Present"
-            role="Campus Ambassador"
-            org="E-Cell, IIT Bombay"
-            text="Selected as Campus Ambassador for E-Cell IIT Bombay — promoting entrepreneurship, representing one of India's premier innovation ecosystems on campus."
+            period="Upcoming"
+            role="Future Goals & Aspirations"
+            org="Continuous Growth"
+            text="Preparing for Smart India Hackathon, GirlScript Summer of Code, and Web3 Summer of Code while maintaining strong academics and career growth."
             className="md:absolute md:top-[10px] md:right-[5%] lg:right-[10%] rotate-2 md:rotate-6"
             aosType="fade-left"
             aosDelay="100"
@@ -130,10 +130,10 @@ const Experience = () => {
           />
 
           <ExpCard
-            period="Apr 2026 – Present"
-            role="Campus Leader"
-            org="Internshala"
-            text="Selected as Campus Leader to represent Internshala on campus — driving internship awareness, leading outreach campaigns, and building stronger student engagement."
+            period="2024 — 2028"
+            role="B.Tech — Information Technology"
+            org="Hemvati Nandan Bahuguna Garhwal University"
+            text="Pursuing IT with a focus on Machine Learning, Data Structures, Algorithms, and full-stack development."
             className="md:absolute md:top-[380px] md:left-[5%] lg:left-[10%] -rotate-2 md:-rotate-6"
             aosType="fade-right"
             aosDelay="200"
@@ -142,10 +142,10 @@ const Experience = () => {
           />
 
           <ExpCard
-            period="Mar – Apr 2026"
-            role="Machine Learning Intern"
-            org="Suvidha Foundation"
-            text="Contributed to NLP/NLG research; built and analyzed ML models on real-world language data under strict research and no-plagiarism standards."
+            period="Current"
+            role="Student Co-ordinator & Tech Head (TPIC)"
+            org="Hemvati Nandan Bahuguna Garhwal University"
+            text="Leading technology strategy and frontend development for the TPIC platform, while organizing startup workshops and campus events."
             className="md:absolute md:top-[700px] md:right-[5%] lg:right-[15%] rotate-1 md:rotate-3"
             aosType="fade-left"
             aosDelay="300"
@@ -154,10 +154,10 @@ const Experience = () => {
           />
 
           <ExpCard
-            period="Feb 2026"
-            role="LLM Post-Training Intern"
-            org="Ethara AI · Selected Candidate"
-            text="Selected through competitive technical screening to work on LLM post-training workflows — AI evaluation, response analysis, and output quality improvement."
+            period="2025"
+            role="1st Place — Anveshan Research Competition"
+            org="GB Pant University"
+            text="Secured first place in the Anveshan research competition for a project driven by innovation and technical depth."
             className="md:absolute md:top-[1050px] md:left-[15%] lg:left-[25%] -rotate-1 md:-rotate-3"
             aosType="fade-right"
             aosDelay="400"
@@ -166,10 +166,10 @@ const Experience = () => {
           />
 
           <ExpCard
-            period="Jan – Feb 2026"
-            role="AI Intern"
-            org="Mirai School of Technology"
-            text="Reduced manual effort by 30% designing scalable n8n automation workflows. Built API-integrated pipelines and deployed reliable AI agents in production."
+            period="2025"
+            role="5th Place — National Entrepreneurship Challenge"
+            org="IIT Bombay"
+            text="Finalist in the National Entrepreneurship Challenge, ranking top 5 among campus teams with a strong business and technical pitch."
             className="md:absolute md:top-[1350px] md:right-[5%] lg:right-[10%] rotate-2 md:rotate-5"
             aosType="fade-left"
             aosDelay="500"
@@ -178,10 +178,10 @@ const Experience = () => {
           />
 
           <ExpCard
-            period="Oct 2024 – Present"
-            role="Content Creator"
-            org="Growwise"
-            text="Built a YouTube channel reaching 113,700+ views — creating educational content on AI tools, geopolitics, and technology with consistent audience growth."
+            period="2025"
+            role="4th Place — IDEATHON"
+            org="Hemwati Nandan Bahuguna Garhwal University"
+            text="Secured fourth place by presenting practical technology solutions, mentored by IIT Roorkee partners."
             className="md:absolute md:top-[1650px] md:left-[5%] lg:left-[10%] -rotate-1 md:-rotate-3"
             aosType="fade-right"
             aosDelay="600"

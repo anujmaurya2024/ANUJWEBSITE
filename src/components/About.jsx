@@ -1,30 +1,38 @@
 import React from 'react';
+import profileImage from '../assets/about/image.png';
 
 const skills = [
-  'Python', 'Java', 'C', 'PHP', 'HTML/CSS', 'SQL',
-  'LLMs', 'Prompt Engineering', 'AI Agents',
-  'Supervised Learning', 'Unsupervised Learning',
-  'NumPy', 'Pandas', 'Matplotlib', 'Seaborn', 'Streamlit', 'n8n',
-  'GitHub', 'MySQL', 'Google Colab',
+  'Python', 'React', 'Node.js', 'FastAPI', 'TensorFlow', 'Scikit-learn',
+  'Pandas', 'React Native', 'JavaScript', 'Tailwind CSS', 'MongoDB',
+  'AWS', 'Docker', 'Git', 'AI/ML', 'Data Visualization',
 ];
 
 const experience = [
+  {
+    org: 'Hemvati Nandan Bahuguna Garhwal University',
+    role: 'Student Co-ordinator & Tech Head (TPIC)',
+    period: 'Current',
+    points: [
+      'Leading tech strategy and frontend development for the TPIC platform.',
+      'Organized campus workshops and startup events, including the “Who Am I? (Startup Edition)” quiz.',
+    ],
+  },
   {
     org: 'Suvidha Foundation',
     role: 'Machine Learning Intern',
     period: 'Mar – Apr 2026',
     points: [
-      'Contributed to NLP/NLG research; built and analyzed ML models on real-world language data.',
-      'Collaborated on structured research tasks under strict no-plagiarism standards.',
+      'Built and analyzed NLP/NLG models on real-world language datasets.',
+      'Contributed to research workflows with careful evaluation and quality checks.',
     ],
   },
   {
-    org: 'Mirai School of Technology',
+    org: 'HARIHAR PUBLIC SCHOOL',
     role: 'AI Intern',
     period: 'Jan – Feb 2026',
     points: [
-      'Reduced manual effort by 30% by designing scalable n8n automation workflows.',
-      'Built API-integrated pipelines and deployed AI agents in production.',
+      'Designed scalable automation workflows and API-integrated pipelines.',
+      'Deployed AI-powered agents and improved operational efficiency.',
     ],
   },
   {
@@ -32,7 +40,7 @@ const experience = [
     role: 'LLM Post-Training Intern — Selected Candidate',
     period: 'Feb 2026',
     points: [
-      'Selected through competitive screening to work on LLM post-training, evaluation, and output improvement.',
+      'Worked on LLM post-training tasks, evaluation, and output improvement.',
     ],
   },
 ];
@@ -52,21 +60,26 @@ const About = () => {
               <div className="absolute -top-3 left-1/2 w-16 h-6 bg-gray-900 rounded-t-xl transform -translate-x-1/2 flex justify-center items-center">
                 <div className="w-8 h-2 bg-black/30 rounded-full shadow-inner"></div>
               </div>
-              <div className="w-full aspect-[3/4] overflow-hidden rounded-xl bg-gray-800 flex flex-col items-center justify-center gap-1.5 px-3">
-                <div className="w-16 h-16 rounded-full bg-[#ff2a2a] flex items-center justify-center shadow-lg shrink-0">
-                  <span className="text-base font-black text-white tracking-tight">CK</span>
-                </div>
-                <div className="text-center mt-1">
-                  <p className="text-white font-black text-xs leading-tight">Chiranjeevi</p>
-                  <p className="text-white font-black text-xs leading-tight">Karthik Chopperla</p>
-                </div>
-                <span className="text-[#ff2a2a] text-[9px] font-bold uppercase tracking-wider">AI / ML Developer</span>
-                <div className="w-full h-px bg-white/10 my-0.5"></div>
-                <span className="text-gray-400 text-[10px] text-center">B.Tech — AIML</span>
-                <span className="text-gray-400 text-[10px] text-center">Ramachandra College</span>
-                <span className="text-gray-500 text-[10px]">CGPA: 7.70 / 10</span>
-                <div className="mt-1 px-3 py-1 bg-[#ff2a2a]/20 border border-[#ff2a2a]/40 rounded-full">
-                  <span className="text-[#ff6060] text-[9px] font-bold">2023 – 2027</span>
+              <div className="w-full aspect-[3/4] overflow-hidden rounded-xl bg-gray-800 flex flex-col items-start">
+                <img 
+                  src={profileImage} 
+                  alt="Anuj Maurya" 
+                  className="w-full h-1/2 object-cover bg-gray-700"
+                  onError={(e) => e.target.style.display = 'none'}
+                />
+                <div className="w-full flex-1 flex flex-col items-center justify-center gap-1.5 px-3 py-3">
+                  <div className="text-center">
+                    <p className="text-white font-black text-xs leading-tight">Anuj</p>
+                    <p className="text-white font-black text-xs leading-tight">Maurya</p>
+                  </div>
+                  <span className="text-[#ff2a2a] text-[9px] font-bold uppercase tracking-wider">Full-Stack Developer</span>
+                  <div className="w-full h-px bg-white/10 my-0.5"></div>
+                  <span className="text-gray-400 text-[10px] text-center">B.Tech — Information Technology</span>
+                  <span className="text-gray-400 text-[10px] text-center">Hemvati Nandan Bahuguna Garhwal University</span>
+                  <span className="text-gray-500 text-[10px]">2024 – 2028</span>
+                  <div className="mt-1 px-3 py-1 bg-[#ff2a2a]/20 border border-[#ff2a2a]/40 rounded-full">
+                    <span className="text-[#ff6060] text-[9px] font-bold">Available</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -80,9 +93,9 @@ const About = () => {
           <p className="text-lg font-bold mb-8 leading-relaxed max-w-3xl text-red-50">
             I'm{' '}
             <span className="text-black text-xl font-black mx-1 tracking-wide uppercase">
-              Chiranjeevi Karthik Chopperla
+              Anuj Maurya
             </span>
-            , an AI/ML developer passionate about building intelligent systems, automating workflows, and deploying real-world machine learning solutions.
+            , an Information Technology & Engineering student with a strong aptitude for Machine Learning and mobile application development. I build intelligent web apps, predictive models, and cross-platform mobile solutions.
           </p>
 
           {/* Experience */}

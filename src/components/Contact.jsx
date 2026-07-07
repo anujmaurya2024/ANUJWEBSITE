@@ -126,15 +126,15 @@ const Contact = () => {
                 )}
                 {status === 'error' && (
                   <p className="text-white font-bold text-sm bg-black/20 rounded-lg px-4 py-3">
-                    Something went wrong. Please email me directly at internkarthikchopperla007@gmail.com
+                    Something went wrong. Please email me directly at anjalimaurya028@gmail.com
                   </p>
                 )}
 
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-end gap-6">
                   <p className="max-w-[250px] leading-relaxed">
                     Or reach me directly at{' '}
-                    <a href="mailto:internkarthikchopperla007@gmail.com" className="underline hover:text-white transition-colors">
-                      internkarthikchopperla007@gmail.com
+                    <a href="mailto:anjalimaurya028@gmail.com" className="underline hover:text-white transition-colors">
+                      anjalimaurya028@gmail.com
                     </a>
                   </p>
 

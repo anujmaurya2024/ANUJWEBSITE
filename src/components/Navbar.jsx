@@ -4,20 +4,15 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  // Handle scroll to make navbar more solid
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      setIsScrolled(window.scrollY > 50);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navLinks = ['Home', 'About', 'Experience', 'Projects', 'Contact'];
+  const navLinks = ['Home', 'About', 'Projects', 'Experience', 'Contact'];
 
   return (
     <nav
@@ -34,7 +29,7 @@ const Navbar = () => {
         {/* Left Side: Logo/Name */}
         <div className="flex items-center">
           <a href="#" className="text-white text-2xl font-black tracking-tight">
-            Karthik<span className="text-red-500">.</span>
+            Anuj<span className="text-red-500"> Maurya</span>
           </a>
         </div>
 

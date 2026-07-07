@@ -1,47 +1,25 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import profileImage from '../assets/about/image.png';
 
 const Hero = () => {
-  const videoRef = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [isMuted, setIsMuted] = useState(false);
-
   useEffect(() => {
     AOS.init({
       duration: 1000,
       once: true,
       easing: 'ease-out'
     });
-    // Video does NOT autoplay anymore
   }, []);
-
-  const toggleVideo = (e) => {
-    e.stopPropagation();
-    if (videoRef.current) {
-      if (videoRef.current.paused) {
-        videoRef.current.play();
-        setIsPlaying(true);
-      } else {
-        videoRef.current.pause();
-        setIsPlaying(false);
-      }
-    }
-  };
 
   return (
     <section className="relative w-full overflow-hidden bg-black" style={{ height: '100dvh', minHeight: '100vh' }}>
-      {/* Background Video */}
-      <video
-        ref={videoRef}
-        loop
-        muted={isMuted}
-        playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover object-top z-0"
-      >
-        <source src="/hero.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      {/* Background Image */}
+      <img
+        src={profileImage}
+        alt="Anuj Maurya"
+        className="absolute top-0 left-0 w-full h-full object-cover object-center z-0"
+      />
 
       {/* Content Container */}
       <div className="absolute inset-0 z-20 px-6 pb-20 md:pb-[8%] md:px-12 max-w-7xl mx-auto flex flex-col md:flex-row justify-end md:justify-between items-start md:items-end text-left w-full">
@@ -53,7 +31,7 @@ const Hero = () => {
             data-aos="fade-up"
             className="text-white text-3xl md:text-5xl font-bold mb-4 tracking-tight"
           >
-            Hi, I’m <br /> <span className="text-transparent [-webkit-text-stroke:1.5px_black]">Chiranjeevi Karthik</span>
+            Hi, I’m <br /> <span className="text-transparent [-webkit-text-stroke:1.5px_black]">Anuj Maurya</span>
           </h1>
 
           {/* Subheading */}
@@ -62,7 +40,7 @@ const Hero = () => {
             data-aos-delay="200"
             className="text-white text-sm md:text-lg font-semibold mb-8 max-w-md drop-shadow-md"
           >
-            AI/ML Developer — building intelligent systems, LLM-powered applications, and automation workflows.
+            Full-Stack Developer — crafting immersive digital experiences, AI-powered apps, and scalable web products.
           </p>
 
           {/* Buttons */}
@@ -80,31 +58,6 @@ const Hero = () => {
               Contact Me
             </a>
           </div>
-        </div>
-
-        {/* Right Side: Play Video Button */}
-        <div 
-          data-aos="zoom-in"
-          data-aos-delay="600"
-          className="mt-8 md:mt-0 flex flex-row md:flex-col items-center gap-2 md:gap-3 cursor-pointer group self-start md:self-auto"
-          onClick={toggleVideo}
-        >
-          <div className="w-12 h-12 md:w-20 md:h-20 rounded-full border border-white/30 bg-black/20 backdrop-blur-md flex justify-center items-center group-hover:scale-110 group-hover:bg-[#ff2a2a] transition-all duration-500 shadow-[0_0_30px_rgba(255,255,255,0.1)] group-hover:shadow-[0_0_40px_rgba(255,42,42,0.6)]">
-            {!isPlaying || isMuted ? (
-              // Play Icon
-              <svg className="w-5 h-5 md:w-8 md:h-8 text-white ml-0.5 md:ml-1" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M8 5v14l11-7z" />
-              </svg>
-            ) : (
-              // Pause Icon
-              <svg className="w-5 h-5 md:w-8 md:h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
-              </svg>
-            )}
-          </div>
-          <span className="text-white text-[10px] md:text-xs font-bold tracking-widest uppercase opacity-70 group-hover:opacity-100 transition-opacity">
-            {!isPlaying || isMuted ? "Play Reel" : "Pause"}
-          </span>
         </div>
       </div>
 
