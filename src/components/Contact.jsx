@@ -8,7 +8,7 @@ import emailjs from '@emailjs/browser';
 // 3. Create Email Template → copy the Template ID → replace YOUR_TEMPLATE_ID
 // 4. Go to Account > API Keys → copy Public Key  → replace YOUR_PUBLIC_KEY
 const EMAILJS_SERVICE_ID  = 'service_sowuqnn';
-const EMAILJS_TEMPLATE_ID = 'service_sowuqnn';
+const EMAILJS_TEMPLATE_ID = 'template_mq2qshy';
 const EMAILJS_PUBLIC_KEY  = 'aWP7WLM2LEMD-1Luy';
 // ─────────────────────────────────────────────────────────────────────────────
 
