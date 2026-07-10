@@ -7,9 +7,9 @@ import emailjs from '@emailjs/browser';
 // 2. Add Email Service  → copy the Service ID  → replace YOUR_SERVICE_ID
 // 3. Create Email Template → copy the Template ID → replace YOUR_TEMPLATE_ID
 // 4. Go to Account > API Keys → copy Public Key  → replace YOUR_PUBLIC_KEY
-const EMAILJS_SERVICE_ID  = 'service_14ev9lb';
-const EMAILJS_TEMPLATE_ID = 'template_xhp7rb9';
-const EMAILJS_PUBLIC_KEY  = 'aVG9dxXvfqQBv5PIW';
+const EMAILJS_SERVICE_ID  = 'service_sowuqnn';
+const EMAILJS_TEMPLATE_ID = 'service_sowuqnn';
+const EMAILJS_PUBLIC_KEY  = 'aWP7WLM2LEMD-1Luy';
 // ─────────────────────────────────────────────────────────────────────────────
 
 const Contact = () => {
