@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../assets/about/image.png';
+import profileImage from '../assets/about/anujjjj.jpg';
 
 const skills = [
   'Python', 'React', 'Node.js', 'FastAPI', 'TensorFlow', 'Scikit-learn',

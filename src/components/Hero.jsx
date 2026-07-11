@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import profileImage from '../assets/about/image.png';
+import profileImage from '../assets/hero video/anuj.jpeg';
 
 const Hero = () => {
   useEffect(() => {
