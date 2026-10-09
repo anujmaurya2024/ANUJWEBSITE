@@ -38,9 +38,13 @@ const Hero = () => {
           <p 
             data-aos="fade-up"
             data-aos-delay="200"
-            className="text-white text-sm md:text-lg font-semibold mb-8 max-w-md drop-shadow-md"
+            className="text-white text-sm md:text-base font-semibold mb-6 max-w-lg drop-shadow-md leading-relaxed"
           >
-            Full-Stack Developer — crafting immersive digital experiences, AI-powered apps, and scalable web products.
+            Java Backend Developer <span className="text-red-400">|</span> Spring Boot <span className="text-red-400">|</span> REST APIs <span className="text-red-400">|</span> SQL <span className="text-red-400">|</span> Microservices
+            <br />
+            <span className="text-gray-300 text-xs md:text-sm font-normal">
+              Specializing in secure layered architectures, JWT authentication, and high-performance database-driven backend solutions.
+            </span>
           </p>
 
           {/* Buttons */}
@@ -50,11 +54,15 @@ const Hero = () => {
             className="flex flex-row flex-wrap items-center gap-3 w-full"
           >
             {/* Primary Button */}
-            <a href="#projects" className="px-4 py-2 md:px-6 md:py-2 text-xs md:text-base rounded-full bg-white text-black font-semibold hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 shadow-md">
-              View My Projects
+            <a href="#projects" className="px-4 py-2 md:px-6 md:py-2.5 text-xs md:text-sm rounded-full bg-white text-black font-bold hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 shadow-md">
+              View Projects
             </a>
 
-            <a href="#contact" className="px-4 py-2 md:px-6 md:py-2 text-xs md:text-base rounded-full bg-black/40 border border-white text-white font-semibold hover:bg-black/60 transition-all duration-300 backdrop-blur-md">
+            <a href="#resume" className="px-4 py-2 md:px-6 md:py-2.5 text-xs md:text-sm rounded-full bg-[#ff2a2a] text-white font-bold hover:bg-red-600 transition-all duration-300 transform hover:scale-105 shadow-md">
+              View Resume
+            </a>
+
+            <a href="#contact" className="px-4 py-2 md:px-6 md:py-2.5 text-xs md:text-sm rounded-full bg-black/40 border border-white text-white font-semibold hover:bg-black/60 transition-all duration-300 backdrop-blur-md">
               Contact Me
             </a>
           </div>

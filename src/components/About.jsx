@@ -2,9 +2,10 @@ import React from 'react';
 import profileImage from '../assets/about/anujjjj.jpg';
 
 const skills = [
-  'Python', 'React', 'Node.js', 'FastAPI', 'TensorFlow', 'Scikit-learn',
-  'Pandas', 'React Native', 'JavaScript', 'Tailwind CSS', 'MongoDB',
-  'AWS', 'Docker', 'Git', 'AI/ML', 'Data Visualization',
+  'Java', 'Spring Boot', 'Spring MVC', 'Spring Data JPA', 'Hibernate',
+  'Spring Security', 'JWT', 'REST APIs', 'SQL', 'MySQL', 'PostgreSQL',
+  'MongoDB', 'Docker', 'Git', 'Maven', 'Postman', 'React.js', 'Python',
+  'Data Structures & Algorithms', 'Microservices'
 ];
 
 const experience = [
@@ -13,34 +14,32 @@ const experience = [
     role: 'Student Co-ordinator & Tech Head (TPIC)',
     period: 'Current',
     points: [
-      'Leading tech strategy and frontend development for the TPIC platform.',
-      'Organized campus workshops and startup events, including the “Who Am I? (Startup Edition)” quiz.',
+      'Leading tech strategy and backend architecture for the TPIC platform.',
+      'Organized campus technical workshops and startup initiatives across the university.',
     ],
   },
   {
-    org: 'Suvidha Foundation',
-    role: 'Machine Learning Intern',
-    period: 'Mar – Apr 2026',
+    org: 'CODE 1 HACKATHON — IIT Delhi',
+    role: 'Finalist (3rd Place)',
+    period: 'March 2026',
     points: [
-      'Built and analyzed NLP/NLG models on real-world language datasets.',
-      'Contributed to research workflows with careful evaluation and quality checks.',
+      'Engineered and pitched high-performance backend solution under intensive hackathon conditions.',
     ],
   },
   {
-    org: 'HARIHAR PUBLIC SCHOOL',
-    role: 'AI Intern',
-    period: 'Jan – Feb 2026',
+    org: 'Anveshan 2025 Research Competition — GB Pant University',
+    role: 'Finalist (1st Place)',
+    period: 'Nov 2025',
     points: [
-      'Designed scalable automation workflows and API-integrated pipelines.',
-      'Deployed AI-powered agents and improved operational efficiency.',
+      'Awarded first place for innovative technical depth and software architecture.',
     ],
   },
   {
-    org: 'Ethara AI',
-    role: 'LLM Post-Training Intern — Selected Candidate',
-    period: 'Feb 2026',
+    org: 'National Entrepreneurship Challenge (NEC) — IIT Bombay',
+    role: 'Finalist (5th Place)',
+    period: 'May 2025',
     points: [
-      'Worked on LLM post-training tasks, evaluation, and output improvement.',
+      'Ranked top 5 nationwide among university teams for technical execution.',
     ],
   },
 ];
@@ -72,13 +71,13 @@ const About = () => {
                     <p className="text-white font-black text-xs leading-tight">Anuj</p>
                     <p className="text-white font-black text-xs leading-tight">Maurya</p>
                   </div>
-                  <span className="text-[#ff2a2a] text-[9px] font-bold uppercase tracking-wider">Full-Stack Developer</span>
+                  <span className="text-[#ff2a2a] text-[9px] font-bold uppercase tracking-wider text-center">Java Backend Developer</span>
                   <div className="w-full h-px bg-white/10 my-0.5"></div>
                   <span className="text-gray-400 text-[10px] text-center">B.Tech — Information Technology</span>
                   <span className="text-gray-400 text-[10px] text-center">Hemvati Nandan Bahuguna Garhwal University</span>
-                  <span className="text-gray-500 text-[10px]">2024 – 2028</span>
+                  <span className="text-gray-500 text-[10px]">Expected: June 2028</span>
                   <div className="mt-1 px-3 py-1 bg-[#ff2a2a]/20 border border-[#ff2a2a]/40 rounded-full">
-                    <span className="text-[#ff6060] text-[9px] font-bold">Available</span>
+                    <span className="text-[#ff6060] text-[9px] font-bold">Open to Opportunities</span>
                   </div>
                 </div>
               </div>
@@ -89,13 +88,9 @@ const About = () => {
         {/* Right Side: Content */}
         <div data-aos="fade-left" data-aos-delay="200" className="flex-1 text-white mt-8 md:mt-0 relative z-20">
 
-          <h2 className="text-4xl md:text-5xl font-black text-black mb-4">Hello!</h2>
-          <p className="text-lg font-bold mb-8 leading-relaxed max-w-3xl text-red-50">
-            I'm{' '}
-            <span className="text-black text-xl font-black mx-1 tracking-wide uppercase">
-              Anuj Maurya
-            </span>
-            , an Information Technology & Engineering student with a strong aptitude for Machine Learning and mobile application development. I build intelligent web apps, predictive models, and cross-platform mobile solutions.
+          <h2 className="text-4xl md:text-5xl font-black text-black mb-4">Professional Summary</h2>
+          <p className="text-base md:text-lg font-medium mb-8 leading-relaxed max-w-3xl text-red-50">
+            I'm <span className="text-black text-xl font-black mx-1 tracking-wide uppercase">Anuj Maurya</span>, a B.Tech Information Technology student and Java Backend Developer with strong foundations in Core Java, Object-Oriented Programming, Data Structures & Algorithms, and SQL. Hands-on experience building secure RESTful APIs and backend applications using Spring Boot, Spring MVC, Spring Data JPA, Hibernate, Spring Security, and JWT. Experienced with MySQL, MongoDB, Git, GitHub, Maven, Postman, Docker, and React.js.
           </p>
 
           {/* Experience */}

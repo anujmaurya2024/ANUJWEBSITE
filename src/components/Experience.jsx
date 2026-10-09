@@ -118,10 +118,10 @@ const Experience = () => {
         <div className="flex flex-col gap-8 md:gap-12 items-center md:block relative z-10 w-full pt-4 md:pt-0 pb-12 md:pb-0">
 
           <ExpCard
-            period="Upcoming"
-            role="Future Goals & Aspirations"
-            org="Continuous Growth"
-            text="Preparing for Smart India Hackathon, GirlScript Summer of Code, and Web3 Summer of Code while maintaining strong academics and career growth."
+            period="March 2026"
+            role="Finalist — 3rd Place"
+            org="CODE 1 HACKATHON, IIT Delhi"
+            text="Competed as a finalist and secured 3rd Place at the prestigious CODE 1 Hackathon at IIT Delhi, architecting robust software solutions under rigorous sprint criteria."
             className="md:absolute md:top-[10px] md:right-[5%] lg:right-[10%] rotate-2 md:rotate-6"
             aosType="fade-left"
             aosDelay="100"
@@ -130,10 +130,10 @@ const Experience = () => {
           />
 
           <ExpCard
-            period="2024 — 2028"
-            role="B.Tech — Information Technology"
-            org="Hemvati Nandan Bahuguna Garhwal University"
-            text="Pursuing IT with a focus on Machine Learning, Data Structures, Algorithms, and full-stack development."
+            period="Nov 2025"
+            role="Finalist — 1st Place Winner"
+            org="Anveshan 2025 Research Competition (GB Pant Univ)"
+            text="Won 1st place in the prestigious Anveshan Research Competition at GB Pant University, recognized for technical depth, innovation, and backend performance."
             className="md:absolute md:top-[380px] md:left-[5%] lg:left-[10%] -rotate-2 md:-rotate-6"
             aosType="fade-right"
             aosDelay="200"
@@ -142,10 +142,10 @@ const Experience = () => {
           />
 
           <ExpCard
-            period="Current"
-            role="Student Co-ordinator & Tech Head (TPIC)"
-            org="Hemvati Nandan Bahuguna Garhwal University"
-            text="Leading technology strategy and frontend development for the TPIC platform, while organizing startup workshops and campus events."
+            period="May 2025"
+            role="Finalist — 5th Place"
+            org="National Entrepreneurship Challenge (NEC), IIT Bombay"
+            text="National finalist in the premier entrepreneurship challenge at IIT Bombay, ranking 5th across India for technology scalability and execution."
             className="md:absolute md:top-[700px] md:right-[5%] lg:right-[15%] rotate-1 md:rotate-3"
             aosType="fade-left"
             aosDelay="300"
@@ -154,10 +154,10 @@ const Experience = () => {
           />
 
           <ExpCard
-            period="2025"
-            role="1st Place — Anveshan Research Competition"
-            org="GB Pant University"
-            text="Secured first place in the Anveshan research competition for a project driven by innovation and technical depth."
+            period="Current"
+            role="Student Co-ordinator & Tech Head (TPIC)"
+            org="Hemvati Nandan Bahuguna Garhwal University"
+            text="Leading technology strategy and architecture for the Technology and Product Incubation Center (TPIC), coordinating hackathons and incubation initiatives."
             className="md:absolute md:top-[1050px] md:left-[15%] lg:left-[25%] -rotate-1 md:-rotate-3"
             aosType="fade-right"
             aosDelay="400"
@@ -166,10 +166,10 @@ const Experience = () => {
           />
 
           <ExpCard
-            period="2025"
-            role="5th Place — National Entrepreneurship Challenge"
-            org="IIT Bombay"
-            text="Finalist in the National Entrepreneurship Challenge, ranking top 5 among campus teams with a strong business and technical pitch."
+            period="Expected June 2028"
+            role="B.Tech — Information Technology"
+            org="Hemvati Nandan Bahuguna Garhwal University"
+            text="Core focus on Core Java, OOP, Data Structures & Algorithms, SQL databases, and layered backend enterprise system architectures."
             className="md:absolute md:top-[1350px] md:right-[5%] lg:right-[10%] rotate-2 md:rotate-5"
             aosType="fade-left"
             aosDelay="500"
@@ -178,10 +178,10 @@ const Experience = () => {
           />
 
           <ExpCard
-            period="2025"
-            role="4th Place — IDEATHON"
-            org="Hemwati Nandan Bahuguna Garhwal University"
-            text="Secured fourth place by presenting practical technology solutions, mentored by IIT Roorkee partners."
+            period="2022 — 2023"
+            role="12th CBSE (Senior Secondary)"
+            org="Harihar Public School — Jaunpur, Uttar Pradesh"
+            text="Completed higher secondary education under the Central Board of Secondary Education with strong foundation in Science, Mathematics, and Computer Science."
             className="md:absolute md:top-[1650px] md:left-[5%] lg:left-[10%] -rotate-1 md:-rotate-3"
             aosType="fade-right"
             aosDelay="600"

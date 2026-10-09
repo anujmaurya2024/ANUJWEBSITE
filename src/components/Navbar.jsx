@@ -12,7 +12,7 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navLinks = ['Home', 'About', 'Projects', 'Experience', 'Contact'];
+  const navLinks = ['Home', 'About', 'Projects', 'Experience', 'Resume', 'Contact'];
 
   return (
     <nav
@@ -34,12 +34,12 @@ const Navbar = () => {
         </div>
 
         {/* Center: Desktop Menu Links */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-7 items-center">
           {navLinks.map((link) => (
             <a 
               key={link} 
               href={`#${link.toLowerCase()}`}
-              className="text-white/80 hover:text-white font-medium relative group transition-colors duration-300"
+              className="text-white/80 hover:text-white font-medium relative group transition-colors duration-300 text-sm"
             >
               {link}
               {/* Smooth hover underline */}
@@ -48,13 +48,19 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* Right Side: CTA Button */}
-        <div className="hidden md:block">
+        {/* Right Side: CTA Buttons */}
+        <div className="hidden md:flex items-center gap-3">
+          <a
+            href="#resume"
+            className="px-4 py-2 rounded-full bg-[#ff2a2a] text-white font-bold text-xs uppercase tracking-wider hover:bg-red-600 transition-all duration-300 shadow-[0_0_15px_rgba(255,42,42,0.4)]"
+          >
+            Resume
+          </a>
           <a
             href="#contact"
-            className="px-6 py-2.5 rounded-full bg-white/10 border border-white/20 text-white font-semibold hover:bg-white/20 hover:shadow-[0_0_15px_rgba(255,255,255,0.2)] transition-all duration-300 backdrop-blur-md"
+            className="px-5 py-2 rounded-full bg-white/10 border border-white/20 text-white font-semibold hover:bg-white/20 transition-all duration-300 backdrop-blur-md text-xs"
           >
-            Contact Me
+            Contact
           </a>
         </div>
 
